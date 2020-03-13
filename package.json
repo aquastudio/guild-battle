@@ -1,0 +1,29 @@
+{
+  "name": "guild-battle",
+  "version": "1.0.0",
+  "description": "Jeu de carte multijoueurs.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquastudio/guild-battle.git"
+  },
+  "author": "aqua-production",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aquastudio/guild-battle/issues"
+  },
+  "homepage": "https://github.com/aquastudio/guild-battle#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "cookie-session": "^1.4.0",
+    "csurf": "^1.11.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "less": "^3.11.1",
+    "sqlite3": "^4.1.1"
+  }
+}
